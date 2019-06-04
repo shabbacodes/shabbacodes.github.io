@@ -11,17 +11,17 @@ body{
     max-width: 100%;
 }
 #about{
-font-size: 120px;
+
 }
 
 #stage{
     background: url(../images/Aboutme.JPG) center center no-repeat;
-    background-size: cover;
+    background-size: contain;
   
 }
 section{
     margin: 1rem;
-    height: 500px;
+   
     padding: 2rem 2rem;
 }
 .wrapper{
@@ -37,11 +37,17 @@ div > img{
     padding-bottom: 2rem;
     padding-left: 0rem;
     padding-right: 0rem; 
-   height: 400px;
-   width: auto;
+    max-width: 100%;
+    height: auto;
    
+}
+div h4{
+    font-family: 'Antic', sans-serif;
 }
 #bioh4{
     
     font-family: 'Antic', sans-serif;
+}
+#footerul {
+    column-count: 3;
 }

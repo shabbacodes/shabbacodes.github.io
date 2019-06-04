@@ -46,7 +46,7 @@
               <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light" id="stage">
                     <div class="col-md-5 p-lg-5 mx-auto my-5">
                       <h1 class="display-4 font-weight-normal" id="about">About Me</h1>
-                      <a class="btn btn-outline-secondary" href="#Bio">My Bio <i class="fas fa-user"></i></a>
+                      <a class="btn btn-outline-secondary" href="#Bio" onclick="typewriter()">My Bio <i class="fas fa-user"></i></a>
                       <a class="btn btn-outline-secondary" href="#Degrees">Degrees & Certification <i class="fas fa-certificate"></i></a>
                       <a class="btn btn-outline-secondary" href="#Work">Work Experience <i class="fas fa-briefcase"></i></a>
                       <a class="btn btn-outline-secondary" href="#Portfolio">Portfolio <i class="fas fa-folder-open"></i></a>
@@ -65,10 +65,10 @@
                                 <div class="row">
                             <div class="col-sm-8 bg-light text-dark divtext" >
                                     <h1 class="featurette-heading">Chemical Engineer <span class="text-muted">Who loves to code <i class="fas fa-code"></i></span></h1>
-                                <h2 style="float:left" id="bioh4" onload="typewriter()"> </h2>
+                                <h2 style="float:left" id="bioh4" > </h2>
                             </div>
                             <div class="col-sm-4 ">
-                               <img src="../images/Bio.JPG" alt="bio pic">
+                               <img class="img-fluid" src="../images/Bio.JPG" alt="bio pic">
                             </div>
                         </div>
                     </div>
@@ -81,11 +81,22 @@
                         <h1> Degrees & Certifcations </h1>
                         <div class="container-fluid">
                             <div class="row">
-                            <div class="col-sm-3 offset-1">
-                                <h3> Energy </h3>
+                            <div class="col-sm-3 ">
+                               <img class="img-fluid" src="../images/Diploma.png" alt="Diploma">
+                               <h4>Bachelors Degree in Chemical Engineering with minor in mathematics Magna Cum Laude </h4>
                             </div>
-                            <div class="col-sm-8">
-                                    <h3> Real Estate </h3>
+                            <div class="col-sm-3 ">
+                                    <img class="img-fluid" src="../images/exam1.png" alt="Html5" style="max-height: 270px">
+                                    <h4>Microsoft Professional Exams in HTML5, CSS3 & JavaScript and C# Passed with flying colours</h4>
+                             </div>
+                             <div class="col-sm-3 ">
+                                    <img class="img-fluid" src="../images/MCSD.png" alt="Html5" style="max-height: 270px">
+                                    <br>
+                                    <br>
+                                    <h4>Microsoft Certified Solutions Developer from APtech Lagos Nigeria</h4>
+                                </div>
+                            <div class=" offset-1 col-sm-2">
+                                    <h1 class="featurette-heading">Erudite <span class="text-muted">With the paper to prove it <i class="fas fa-award"></i></i></span></h1>
                                 </div>
                         </div>
                     </div>
@@ -106,16 +117,27 @@
             </div>
             </div>
           </section>
-          <section id="Portfolio">
+          <section  class= "bg-dark text-white" id="Portfolio">
                 <div class="wrapper">
                         <h1> Portfolio </h1>
                         <div class="container-fluid">
                                 <div class="row">
-                            <div class="col-sm-3 offset-1">
-                                <h3> Energy </h3>
-                            </div>
-                            <div class="col-sm-8">
-                                    <h3> Real Estate </h3>
+                                        <div class="col-sm-3 ">
+                                                <a href="https://symmetrygames.github.io/Danfo.html"><img class="img-fluid" src="../images/Danfo App Icon.png" alt="Danfo"></a>
+                                                <h4>Danfo - iOS and GooglePlayStore App created using C# and Unity3D</h4>
+                                             </div>
+                                             <div class="col-sm-3 ">
+                                                    <a href="https://symmetrygames.github.io/index.html"><img class="img-fluid" src="../images/Symmetry Games.png" alt="symmetrygames"></a>
+                                                     <br><br>
+                                                     <h4>Designed the website for SymmetryGames using HTML5, CSS3 & JavaScript(Vanilla JS) </h4>
+                                              </div>
+                                              <div class="col-sm-3" style="align-content: center">
+                                                    <a href="http://stifsltd.com/stifs_home.html#contact_us"> <img class="img-fluid" src="../images/stifs_logo_1.png" alt="Html5" style="max-height: 270px"></a>
+                                                     <br><br><br><br><br><br><br><br>
+                                                     <h4>Designed the website for ST Investments and Financial Services</h4>
+                                                 </div>
+                            <div class=" col-sm-3">
+                                    <h1 class="featurette-heading">A Creator  <span class="text-muted">Design Apps <i class="fab fa-app-store"></i> and create Websites <i class="fab fa-html5"></i> <i class="fas fa-award"></i></i></span></h1>
                                 </div>
                         </div>
                     </div>
@@ -126,33 +148,58 @@
                         <h1> Services </h1>
                         <div class="container-fluid">
                                 <div class="row">
-                            <div class="col-sm-8">
-                                <h3> Real Estate </h3>
+                            <div class="col-sm-6">
+                                 <h2><i class="fas fa-user"></i></h2>
+                                <h3>UI / UX Developer</h3>
                             </div>
-                            <div class="col-sm-3 offset-1">
-                                <h3> Energy </h3>
+                            <div class="col-sm-6">
+                                 <h2><i class="fas fa-laptop-code"></i></h2>
+                                <h3>ASP .NET Developer</h3>
                             </div>
                         </div>
-                    </div>
+                        <h4>Kindly Contact me @ shuaib_ba@outlook.com for more information</h4>
+                        </div>
                     </div>
           </section>
-          <section id="Fun">
+          <section class= "bg-dark text-white" id="Fun">
                 <div class="wrapper">
                         <h1> Fun Facts </h1>
                         <div class="container-fluid">
                                 <div class="row">
-                            <div class="col-sm-3 offset-1">
-                                <h3> Energy </h3>
+                            <div class="col">
+                                <h3> I speak 3 Languages : English, Yoruba, Pidgin English </h3>
+                                <h3> I have been to 25 countries </h3>
+                                <h3> Started college at 16 </h3>
+                                <h3> Started my PhD at 21 </h3>
                             </div>
-                            <div class="col-sm-8">
-                                    <h3> Real Estate </h3>
-                                </div>
+                        
                         </div>
                     </div>
                     </div>
           </section>
 
-
+          <footer id="main-footer">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6">
+                      &copy; Shuaib Balogun 2019
+                      <br>
+                      Coded by Shuaib Balogun
+                    </div>
+                    <div class="col-md-4">
+                      <h6>Pages</h6>
+                      <ul class="list-unstyled" id="footerul">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="Umass.html">Umass</a></li>
+                        <li><a href="Tech.html">Georgia Tech</a></li>
+                        <li><a href="https://symmetrygames.github.io">Symmetry Games</a></li>
+                        <li><a href="Projects.html">Projects</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </footer>
   
     
         
@@ -166,6 +213,41 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script defer src="../Styles/fontawesome-free-5.8.2-web//js/all.js"></script> <!--load all styles -->
-    <script src="JavaScript/about.js"></script>
+    <script>
+    var aText = new Array(
+    "I am a chemical engineer with a minor in mathematics. I am also a skilled developer that specialises in HTML5, CSS3, JavaScript, C# and ASP .NET MVC. I primarily focus on Front-End Web development and iOS and Android Game development using Unity3D. I am able to use the following frameworks to further my craft: Boostrap 4, JQuery , React .JS and MonoDevelop"
+    );
+    var iSpeed = 25; // time delay of print out
+    var iIndex = 0; // start printing array at this posision
+    var iArrLength = aText[0].length; // the length of the text array
+    var iScrollAt = 20; // start scrolling up at this many lines
+     
+    var iTextPos = 0; // initialise text position
+    var sContents = ''; // initialise contents variable
+    var iRow; // initialise current row
+     
+    function typewriter()
+    {
+     sContents =  ' ';
+     iRow = Math.max(0, iIndex-iScrollAt);
+     var destination = document.getElementById("bioh4");
+     
+     while ( iRow < iIndex ) {
+      sContents += aText[iRow++] + '<br />';
+     }
+     destination.innerHTML = sContents + aText[iIndex].substring(0, iTextPos) + "_";
+     if ( iTextPos++ == iArrLength ) {
+      iTextPos = 0;
+      iIndex++;
+      if ( iIndex != aText.length ) {
+       iArrLength = aText[iIndex].length;
+       setTimeout("typewriter()", 500);
+      }
+     } else {
+      setTimeout("typewriter()", iSpeed);
+     }
+    }
+    
+    </script>
 </body>
 </html>

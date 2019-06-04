@@ -1,5 +1,24 @@
-#About{
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    text-rendering: optimizeLegibility;
+}
+#header{
+    height: 100%;
+    max-width: 100%;
+}
+#about{
 font-size: 120px;
-text-align: center;
+}
+
+#stage{
+    background: url(../images/Aboutme.JPG) center center no-repeat;
+    background-size: cover;
+  
+}
+.wrapper{
+    text-align: center;
 }

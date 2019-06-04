@@ -22,3 +22,8 @@ font-size: 120px;
 .wrapper{
     text-align: center;
 }
+div > img{
+    padding: 2rem 2rem;
+    height: 300px;
+    width: auto;
+}

@@ -19,11 +19,29 @@ font-size: 120px;
     background-size: cover;
   
 }
+section{
+    margin: 1rem;
+    height: 500px;
+    padding: 2rem 2rem;
+}
 .wrapper{
+    text-align: center;
+  
+}
+.divtext{
+    justify-content: center;
     text-align: center;
 }
 div > img{
-    padding: 2rem 2rem;
-    height: 300px;
-    width: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 0rem;
+    padding-right: 0rem; 
+   height: 400px;
+   width: auto;
+   
+}
+#bioh4{
+    
+    font-family: 'Antic', sans-serif;
 }
